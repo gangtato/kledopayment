@@ -1,7 +1,9 @@
 Langkah singkat menjalankan script kledopayment:
 
-1. Jalankan php artisan migrate:refresh --seed 
-2. Jalankan php artisan queue:restart
-3. Jalankan php artisan queue:work
-4. buka file pusher.html
-5. buka menu localhost:8000/payments
+1. copy env.text ke file .env 
+2. Jalankan php artisan migrate:refresh --seed
+3. Jalankan php artisan queue:restart
+4. Jalankan php artisan queue:work
+5. buka file pusher.html
+6. buka menu localhost:8000/payments
+7. semoga berhasil
